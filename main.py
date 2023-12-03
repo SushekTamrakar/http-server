@@ -22,7 +22,7 @@ class HTTPRequestHandler(BaseHTTPRequestHandler):
         self.end_headers()
 
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
-        self.wfile.write(bytes(date))
+        self.wfile.write(bytes())
 
 
 server = HTTPServer((HOST, PORT), HTTPRequestHandler)

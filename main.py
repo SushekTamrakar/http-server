@@ -28,22 +28,7 @@ class HTTPRequestHandler(BaseHTTPRequestHandler):
 server = HTTPServer((HOST, PORT), HTTPRequestHandler)
 print("Server is now running in Port", HOST)
 
-sdfasdfsadf
-sdsadas
-asdasdasdasdas
-asdasdasdasdasdasdas
-asdasdasdasdasdasdasdasd
-sadsdasdasdasdasdasdasd
-asdasdasdasdasdasdasdasdasdasasd
-asdasdasdasdasd
-asdfasdfa
-asdasdasdasdadasdasdasdasdaaaaaaaaaassddddqweqweqweqweqweqwew
-asdfasdfasqqweqweqweqweqweqwewqeqwe
-xzcvzxcvzcvzvz
-777777777777777777777767777677777
-sdasdasdSADSDASSADA
-asdfasdfasdfasdfwrwqerwqekjljkljlkjkjkljkjjjjlllkkkkjhg
-[poitireoweirowperqpoweiqopweiqopwxc,vx,cvmxbmcvbmc..m,vmzxcmv,xzmv.,xmc.vmzx.,cmv.,xzcmvzxvzcmbn]
+
 server.serve_forever()
 server.server_close()
 print('Server Stopped')
